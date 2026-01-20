@@ -78,7 +78,7 @@ def collect_sample() -> dict:
 
 
 def append_txt(path: str, row: dict):
-    # This creates the file if it doesn't exist, and appends if it does. [web:43]
+    # this creates the file if it dont exist alr
     line = (
         f'{row["timestamp"]} | '
         f'SSID={row["ssid"]} | '
